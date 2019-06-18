@@ -9,9 +9,7 @@
     "jupyter",
     "cells"
   ],
-  "activationCommands": {
-    "atom-workspace": "hydrogen-cell-separator:toggle"
-  },
+  "activationCommands": {},
   "repository": "https://github.com/jhabriel/hydrogen-cell-separator",
   "license": "MIT",
   "engines": {
