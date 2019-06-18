@@ -2,8 +2,7 @@
   "name": "hydrogen-cell-separator",
   "main": "./lib/hydrogen-cell-separator",
   "version": "0.0.0",
-  "description": "Atom package to improve identification of cells by
-  separating them with a horizontal line.",
+  "description": "Atom package to improve identification of cells by separating them with a horizontal line.",
   "keywords": ["atom", "hydrogen", "jupyter", "cells"
   ],
   "activationCommands": {
