@@ -1,8 +1,23 @@
-// The ui-variables file is provided by base themes provided by Atom.
-//
-// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
-// for a full listing of what's available.
-@import "ui-variables";
+@import "syntax-variables";
 
-.hydrogen-cell-separator {
+.draw_line_above() {
+  &::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    background: @syntax-wrap-guide-color;
+    opacity: 0.9;
+  }
 }
+
+atom-text-editor.editor {
+  .syntax--source.syntax--python {
+      .syntax--comment.syntax--line.syntax--number-sign.syntax--python{
+        .syntax--entity.syntax--name.syntax--section.syntax--breakpoint{
+            .draw_line_above()
+            }
+        }
+    }
+  }
